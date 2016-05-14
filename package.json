@@ -14,10 +14,42 @@
     "type": "git",
     "url": "git+https://github.com/juandinella/ground-zero.git"
   },
-  "author": "Juan Ignacio Di Nella",
+  "author": "Juan Di Nella",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/juandinella/ground-zero/issues"
   },
-  "homepage": "https://github.com/juandinella/ground-zero#readme"
+  "homepage": "https://github.com/juandinella/ground-zero#readme",
+  "devDependencies": {
+    "browser-sync": "*",
+    "coffee-script": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-accord": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-cheerio": "*",
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-cssfont64": "*",
+    "gulp-cssnano": "*",
+    "gulp-gh-pages": "*",
+    "gulp-group-css-media-queries": "*",
+    "gulp-imagemin": "*",
+    "gulp-load-plugins": "*",
+    "gulp-newer": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-svgmin": "*",
+    "gulp-svgstore": "*",
+    "gulp-uglify": "*",
+    "gulp-uncss": "*",
+    "gulp-util": "*",
+    "jade": "*",
+    "require-dir": "*",
+    "run-sequence": "*"
+  }
 }

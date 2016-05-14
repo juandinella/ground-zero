@@ -1,0 +1,11 @@
+.container {
+  @include cf;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 $column-gutter / 2;
+  // @include breakpoint(tablet) {
+  //   width: 85%;
+  // }
+}
