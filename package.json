@@ -1,0 +1,23 @@
+{
+  "name": "ground-zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test",
+    "firstTime": "npm install -g gulp browser-sync npm-cache bower",
+    "getReady": "npm-cache install bower npm",
+    "start": "gulp",
+    "githubDeploy": "gulp gitlab && gulp deploy && gulp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandinella/ground-zero.git"
+  },
+  "author": "Juan Ignacio Di Nella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandinella/ground-zero/issues"
+  },
+  "homepage": "https://github.com/juandinella/ground-zero#readme"
+}
