@@ -1,7 +1,6 @@
-// $breakpoints: (
-//   'phablet'     : em(414px),
-//   'tablet'      : em(768px),
-//   'laptop'      : em(1024px),
-//   'desktop'     : em(1440px),
-//   '4k'          : em(2560px)
-// );
+$breakpoints: (
+  'small'       : em(414px),
+  'medium'      : em(768px),
+  'large'       : em(1024px),
+  'xl'          : em(1440px)
+);

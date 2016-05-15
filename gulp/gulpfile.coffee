@@ -32,7 +32,7 @@ gulp.task 'watch', ['browsersync'], ->
   gulp.watch 'src/svg/**', ['svg', 'jade']
   gulp.watch 'src/fonts/**/*', ['fonts']
 
-# Default Task Because YOLO
+# Default Task
 gulp.task 'default', ->
   runSequence 'clean',
     'scripts',

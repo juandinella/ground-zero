@@ -15,7 +15,6 @@ gulp.task 'production:watch', ['browsersync'], ->
   gulp.watch 'src/fonts/**/*', ['fonts']
 
 
-
 # Default Production task Because YOLOP
 gulp.task 'production', ->
   runSequence 'clean',
